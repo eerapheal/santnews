@@ -1,0 +1,50 @@
+.navItems {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: aqua;
+}
+
+.item {
+    position: relative;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+
+.itemLink {
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.dropDown {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 190px;
+    top: 45px;
+    position: absolute;
+    padding: 20px;
+    background-color: black;
+    border-right: 2px solid aqua;
+    border-bottom: 3px solid aqua;
+    box-shadow: 0 5px 10px #c77f7f;
+    z-index: 1;
+}
+
+.homeDrop {
+    padding: 10px;
+}
+.itemLinks {
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
