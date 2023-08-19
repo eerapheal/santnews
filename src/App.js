@@ -1,10 +1,15 @@
 import Routess from './Routess'
-const App = ()  => {
+
+import React from 'react';
+import { Provider } from 'react-redux';
+import store from './components/store/store';
+
+const App = () => {
   return (
-    <div className="App">
-    < Routess />
-    </div>
+    <Provider store={store}>
+      < Routess />
+    </Provider>
   );
-}
+};
 
 export default App;

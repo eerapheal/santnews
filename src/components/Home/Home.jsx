@@ -1,5 +1,5 @@
 import "./Home.scss";
-// import Header from "../Header/Header";
+import NewsList from '../NewsList/NewsList';
 import Ads from "../Ads/Ads";
 
 const Home = () => {
@@ -7,6 +7,7 @@ const Home = () => {
     <div className="mainHome">
       <div className="homeWrapper">
         <Ads />
+        <NewsList />
       </div>
     </div>
   );

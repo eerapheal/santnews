@@ -3,6 +3,7 @@ import Page from './components/Page/Page';
 import Home from './components/Home/Home';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import Content from './components/NewsList/Content';
 
 const Routess = () => {
     return (
@@ -15,7 +16,7 @@ const Routess = () => {
   <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/technology" element={<Page />} />
-            {/* <Route path="/lifestyle" element={<Lifestyle />} /> */}
+            <Route path="/content" element={<Content />} />
 
             {/* <Route path="/treadingnews" element={<TreadingNews />} />
             <Route path="/login" element={<Login />} />
